@@ -1,5 +1,8 @@
 const { palindrome } = require ("../utils/for_testing");
 
+//! JEST METHODS DOCUMENTATION:
+// https://jestjs.io/docs/expect
+
 //! TEST FOR "probando":
 test("palindrome of probando", () => {
     const result = palindrome("probando");
