@@ -1,4 +1,5 @@
 const palindrome = (string) => {
+    if (typeof string === "undefined") return undefined;
     return string
     .split("")
     .reverse()
